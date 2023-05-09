@@ -1,0 +1,96 @@
+.navLink {
+  position: relative;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+}
+.navigationLink {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.iconsolidchevronDown {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.navigationDropdown {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.rocketLaunchIcon {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.consolidationOfAnalysis {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--desktop-button-text-style-size);
+  letter-spacing: 0.02em;
+  color: var(--camsol-neutral-700);
+}
+.headingSubheading {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4xs);
+}
+.navigationContent,
+.singleNavigationColumn {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  padding: var(--padding-xs);
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.singleNavigationColumn {
+  flex-direction: column;
+  gap: var(--gap-base);
+  z-index: 0;
+}
+.navigationDropdownMenuChild {
+  position: absolute;
+  margin: 0 !important;
+  top: -12px;
+  right: 0;
+  width: 56px;
+  height: 28px;
+  display: none;
+  z-index: 1;
+}
+.mobileNavDropdown,
+.navigationDropdownMenu {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navigationDropdownMenu {
+  border-radius: var(--br-base);
+  background-color: var(--camsol-black-and-white-white);
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  gap: var(--gap-base);
+  text-align: left;
+  color: var(--innovations-neutral-black);
+}
+.mobileNavDropdown {
+  gap: var(--gap-xs);
+  text-align: center;
+  font-size: var(--font-size-lg);
+  color: var(--camsol-neutral-900);
+  font-family: var(--desktop-body);
+}
